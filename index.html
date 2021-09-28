@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Clarusway Survey Form</h1>
+            <p style="font-size: 20px;">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <section id="survey-form-container">
+
+          
+
+            <form action="result.html">
+                <div class="büşra">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+
+                <div class="büşra">
+                    <label for="surname">Surname</label>
+                    <br>
+                    <input type="text" id="surname" name="Name" placeholder="Enter your surname">
+                </div>
+
+                <div class="büşra">
+                    <label for="EMAİL">Email</label>
+                    <br>
+                    <input type="email" id="EMAİL" name="MAİL" placeholder="user@clarusway.com">
+                </div>
+
+                <div class="büş">
+                    <label for="current rol" class="labell">Which option best describes your current role?</label>
+                    <br>
+                    <select name="current rol" id="dropdown">
+                        <option value="" disabled selected>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="Teacherr">Teacher</option>
+                        <option value="Fulltime">Fulltime</option>
+                        <option value="Parttime">Parttime</option>
+                        <option value="Prefer no to say">Prefer no to say</option>
+                    </select>
+                </div>
+
+                <div class="büş">
+                    <label for="FRİEND" class="labell">Would you recommend Clarusway to a friend?</label>
+                    <br>
+                    <input type="radio" id="first" name="FRİEND" value="DefYes" checked >
+                    <label for="first">Definitly, Yes</label>
+                    <br>
+
+                    <input type="radio" id="second" name="FRİEND" value="Maybe" >
+                    <label for="second">Not Maybe</label>
+                    <br>
+
+                    <input type="radio" id="third" name="FRİEND" value="Not sure" >
+                    <label for="third">Not sure</label>
+                    <br>
+
+                    <input type="radio" id="fourth" name="FRİEND" value="dEFNo" >
+                    <label for="fourth">Definitly,No</label>
+
+                </div>
+
+                <div class="büş">
+                    <label for="feature">What is your favourite feature of Clarusway?</label>
+                    <br>
+                    <select name="feat" id="dropdown">
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="değer2">Courses</option>
+                        <option value="değer2">Projects</option>
+                        <option value="değer2">Comunity</option>
+                        <option value="değer2">Mentors</option>
+                    </select>
+                </div>
+
+                <div class="büş">
+                    <label for="imp">Would you like to see improved?(Check all that apply)</label>
+                    <br>
+                    <input type="checkbox" id="firstt" name="imp" value="Front" >
+                    <label for="firstt">Front-end Projects</label>
+                    <br>
+
+                    <input type="checkbox" id="secondd" name="imp" value="Back" >
+                    <label for="secondd">Back -end Projects</label>
+                    <br>
+
+                    <input type="checkbox" id="thirdd" name="imp" value="Data" >
+                    <label for="thirdd">Data Science</label>
+                    <br>
+
+                    <input type="checkbox" id="fourthh" name="imp" value="Add" >
+                    <label for="fourthh">Additional Course</label>
+
+                </div>
+
+                <div class="büş">
+                    <label for="feed" class="labell">Any comments or suggestions? </label>
+                    <br>
+
+                    <textarea name="feed" id="feedback" cols="30" rows="10" placeholder="Enter your comment here...Thanks for your comments"></textarea>
+                </div>
+                <div id="form-submit">
+                    <button type="submit" id="form-button">Submit</button>
+                </div>
+
+
+
+
+
+
+            </form>
+
+
+
+         
+        
+
+
+    </div>
+        </section>
+    
+</body>
+</html>
